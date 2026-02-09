@@ -100,8 +100,3 @@ The solution:
 - Drops letters into the correct row as it goes
 - Joins everything together at the end
 
-No magic, just controlled movement and simple grouping.
-
----
-
-LeetCode Problem #6 — Zigzag Conversion
