@@ -9,16 +9,16 @@ function majorityElement($nums) {
 	$candidate = 0;
 	$count = 0;
 
-	foreach ($num as $nums) {
+	foreach ($nums as $num) {
 		if ($count == 0) {
-			$candidate = $num
+			$candidate = $num;
 		}
 		if ($num == $candidate) {
-			$count++
+			$count++;
 		} else {
-			$count--
+			$count--;
 		}
 	}
-	return $candidate
+	return $candidate;
 }
 }
